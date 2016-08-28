@@ -7,7 +7,7 @@ import AccountHeader from './AccountHeader';
 
 class Logo extends React.Component {
     render() {
-        return <img className="logo" src="images/logo.png" />;
+        return <a href="/"><img className="logo" src="images/logo.png" /></a>;
     }
 }
 
